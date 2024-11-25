@@ -1,0 +1,25 @@
+.title,
+.description {
+  align-items: center;
+}
+
+.card-layout {
+  margin: 16px;
+  padding: 16px;
+  border-radius: 10px;
+
+  border: 1px solid black;
+}
+
+.hide-btn {
+  font-size: large;
+  height: 50px;
+  width: 60px;
+}
+
+@media (min-width: 992px) {
+  .card-layout {
+    width: 45%;
+    display: inline-block;
+  }
+}
